@@ -9,9 +9,9 @@ public class Leapyear {
         year = sc.nextInt();
 
         if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) 
-            System.out.println("Leap Year");
+            System.out.println(" This year is Leap Year");
          else 
-            System.out.println("Not Leap Year");
+            System.out.println(" This Year is Not Leap Year");
         
 
       
