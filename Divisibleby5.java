@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class Divisible
-{
+public class Divisibleby5{
     public static void main(String[]args)
     {
         float num;
