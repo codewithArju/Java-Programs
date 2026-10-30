@@ -9,9 +9,11 @@ public class Specialchar {
 
         char alpha = sc.next().charAt(0);
 
-        if ((alpha >= 'a' && alpha <= 'm') || (alpha >= 'n' && alpha <= 'z')) {
+        if ((alpha >= 'a' && alpha <= 'm') || (alpha >= 'n' && alpha <= 'z')) 
+            {
             System.out.println("This is a special character");
-        } else {
+        }
+         else {
             System.out.println("Not a special character");
         }
     }
